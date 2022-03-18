@@ -1,8 +1,23 @@
 [
     {
-        "fn": "Jane Doe"
-    },
-    {
-        "fn": "John Doe"
+        "fn": "Jane Doe",
+        "anniversary": "19901021",
+        "bday": "19700310",
+        "caladruri": "http://example.com/calendar/jdoe",
+        "calurI": "http://example.com/calendar/jdoe",
+        "categories": "swimmer,biker",
+        "email": "janedoe@example.com",
+        "fburl": "http://example.com/fb/jdoe",
+        "gender": "F",
+        "geo": "geo:39.95,-75.1667",
+        "impp": "aim:johndoe@aol.com",
+        "kind": "individual",
+        "lang": "en-US",
+        "n": "N:Doe;Jane;;Dr;",
+        "nickname": "Jane",
+        "note": "I am proficient in Tiger-Crane Style,\nand I am more than proficient in the exquisite art of the Samurai sword.",
+        "org": "Example;Web Development Team",
+        "photo": "PHOTO:data:image/jpeg;base64,[base64-data]",
+        "tel": "TYPE=cell:(123) 555-5832"
     }
 ]

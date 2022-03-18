@@ -15,9 +15,12 @@ class Vcard:
         card += linesep
         card += self.VERSION
 
-        for prop in self.props:
+        for prop, value in self.props.items():
             card += linesep
-            card  += prop.upper() + ':' + self.props[prop]
+            if prop == "tel":
+                card += prop.upper() + ';' + value
+            else:
+                card  += prop.upper() + ':' + value
 
         card += linesep
         card += self.END
